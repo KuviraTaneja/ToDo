@@ -1,0 +1,65 @@
+* {
+box-sizing: border-box;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    cursor: pointer;
+    padding: 10px 50px 10px 35px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    list-style-type: none;
+    font-size: 20px;
+    background-color: white;
+    margin-right: 30px;
+    border: 1px solid black;
+}
+
+ul li:nth-child(odd) {
+    background-color: rgb(220,220,220);
+}
+
+ul li:hover {
+    background-color: rgb(232,232,232);
+}
+
+ul li.checked {
+    background: rgb(128,128,128);
+    color: white;
+    text-decoration: line-through;
+}
+/* 
+ul li.checked:before {
+   
+} */
+
+.close {
+    float:right;
+}
+
+.header {
+    margin-top: 70px;
+    margin-left: 30px;
+    margin-right: 30px;
+
+}
+
+.active input {
+    height: 40px;
+    border: 1px solid black;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Luxurious Roman', cursive;
+    letter-spacing: 1px;
+    background-color: red;
+    color: white;
+}
+
